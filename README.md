@@ -53,7 +53,7 @@
 
 **NOT1:** 
 
-    B. kısmında ***INSERT*** methodları *https://www.mockaroo.com/* adresinden ilgili sütun ve tablo değerlerine göre otomatik oluşturulmuştur. Senaryoya göre datalar üretilirken bazı kısıtlar *Formulas* seçeneği ile eklenmiştir. ***DATE*** değerleri tabloya eklenirken ***DEFAULT*** eklenmesinde zorluk yaşandığımdan, öncelikle tabloya bu değerleri ***NULL*** olarak bastırılmasını istedim. Ardından trigger ile ***NULL*** ifade varsa yerine ***DEFAULT*** ekle şartını çalıştırabildim. Bu sayede Tablo Constraint'inde bulunan ***DEFAULT*** ise ***CURRENT_DATE*** eklenme şartı sağlanmış oldu. Bu konuda *[chatgpt](https://chatgpt.com/)*'den destek aldım.
+B. kısmında ***INSERT*** methodları *https://www.mockaroo.com/* adresinden ilgili sütun ve tablo değerlerine göre otomatik oluşturulmuştur. Senaryoya göre datalar üretilirken bazı kısıtlar *Formulas* seçeneği ile eklenmiştir. ***DATE*** değerleri tabloya eklenirken ***DEFAULT*** eklenmesinde zorluk yaşandığımdan, öncelikle tabloya bu değerleri ***NULL*** olarak bastırılmasını istedim. Ardından trigger ile ***NULL*** ifade varsa yerine ***DEFAULT*** ekle şartını çalıştırabildim. Bu sayede Tablo Constraint'inde bulunan ***DEFAULT*** ise ***CURRENT_DATE*** eklenme şartı sağlanmış oldu. Bu konuda *[chatgpt](https://chatgpt.com/)*'den destek aldım.
 
 **NOT2:** 
     Sorgular aşağıdaki gibidir.
@@ -80,4 +80,5 @@
 
 **NOT4:** 
     [*PostgreSQL*](https://www.postgresql.org/)'de ER Diagramları aşağıdaki şekilde otomatik olarak oluşturulabilir.
-                ![alt text](image-1.png)
+
+    ![Görsel](image-1.png)
