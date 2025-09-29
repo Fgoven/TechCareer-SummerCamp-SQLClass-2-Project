@@ -80,5 +80,5 @@ B. kısmında ***INSERT*** methodları *https://www.mockaroo.com/* adresinden il
 
 **NOT4:** 
     [*PostgreSQL*](https://www.postgresql.org/)'de ER Diagramları aşağıdaki şekilde otomatik olarak oluşturulabilir.
-
-    ![Görsel](image-1.png)
+    
+![alt text](image.png)
